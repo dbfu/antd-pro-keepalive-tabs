@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkantd_pro_keepalive_tab=self.webpackChunkantd_pro_keepalive_tab||[]).push([[205],{37205:function(o,n,t){t.r(n),t.d(n,{default:function(){return a}});var l=t(50959),u=t(48629),e=t(11527);function a(){var E=(0,u.useOutletContext)();return(0,e.jsx)(u.Outlet,{context:E})}}}]);
