@@ -338,7 +338,7 @@ export async function rule(
     success: true,
     pageSize: 20,
     current: 1,
-  };
+  } as any;
 }
 
 /** 新建规则 PUT /api/rule */
