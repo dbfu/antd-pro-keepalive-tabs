@@ -48,8 +48,16 @@ export default [
   {
     name: 'list.table-list',
     icon: 'table',
-    path: '/list',
+    path: '/list/index',
     component: './TableList',
+  },
+  {
+    name: 'list.detail',
+    icon: 'table',
+    path: '/list/detail/:id',
+    component: './TableList/detail',
+    hideInMenu: true,
+    parentKey: ['/list/index'],
   },
   {
     path: '/',
