@@ -16,6 +16,7 @@ export default defineConfig({
   hash: true,
 
   publicPath: '/antd-pro-keepalive-tabs/',
+  history: { type: 'hash' },
 
   /**
    * @name 兼容性设置
